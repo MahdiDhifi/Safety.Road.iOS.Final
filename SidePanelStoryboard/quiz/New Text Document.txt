@@ -1,0 +1,205 @@
+       var quizList = new List<Tasks>()
+            {
+                 new Tasks()
+                {
+                    
+         question ="Does the driver of the blue car have to give way ?",
+         choice_1 ="Yes",
+         choice_2 ="No",
+         choice_3 ="I dont know",
+        answer ="No",
+        img ="/Assets/quiz/q1.png"
+                },
+                new Tasks()
+                {
+                    
+         question ="When turning right from a tow-laned road into a one way street that has tow lanes,you must turn into the:",
+         choice_1 ="Right-hand lane.",
+         choice_2 ="Left-hand lane.",
+         choice_3 ="Lane that has the least vehicles.",
+        answer ="Right-hand lane.",
+        img ="/Assets/quiz/q2.png"
+                },
+                new Tasks()
+                {
+                    
+         question ="What should you do when another vehicle is following you very closely?",
+         choice_1 ="Speed up to get futher ahead.",
+         choice_2 ="Breake suddenly to warn them.",
+         choice_3 ="Flick your vehicle lights and wave your arm.",
+        answer ="Speed up to get futher ahead.",
+        img ="/Assets/quiz/q4.png"
+                },
+
+                     new Tasks()
+                {
+                    
+         question ="What must you do before turning left into a driveway",
+         choice_1 ="Check the driveway is clear and enter.",
+         choice_2 ="Signal only if there is a vehicle behind you and enter.",
+         choice_3 ="Signal for 3 seconds or more and if the driveway is clear,enter.",
+        answer ="Signal for 3 seconds or more and if the driveway is clear,enter.",
+        img ="/Assets/quiz/q5.png"
+                },
+                             new Tasks()
+                {
+                    
+         question ="If you miss your exit on a motorway,you should:",
+         choice_1 ="Reverse back to the exit.",
+         choice_2 ="Make a U-turn back to exit.",
+         choice_3 ="Drive on to the next exit.",
+        answer ="Drive on to the next exit.",
+        img ="/Assets/quiz/q6.png"
+                },
+
+                                new Tasks()
+                {
+                    
+         question ="Before making a lane change to your left, you must signal for least 3 seconds and what else must you do ?",
+         choice_1 ="Use your wehicle brake lights to warn other read users.",
+         choice_2 ="Ensure that there are no oncoming vehicles.",
+         choice_3 ="Check your blind spot before moving left.",
+        answer ="Ensure that there are no oncoming vehicles.",
+        img ="//Assets/quiz/q7.png"
+                },
+
+                                    new Tasks()
+                {
+                    
+         question ="The bonnet of your vehicle lifts up while you are driving and you cannot see.what should you do ?",
+         choice_1 ="Speed up .",
+         choice_2 ="Look out of the side window.",
+         choice_3 ="Stop as quickly as you can.",
+        answer ="Stop as quickly as you can.",
+        img ="/Assets/quiz/q8.png"
+                },
+
+                                          new Tasks()
+                {
+                    
+         question ="You Must dip the headlights on your vehicle when:",
+         choice_1 ="Coming up to an intersection.",
+         choice_2 ="Driving in city",
+         choice_3 ="Driving on ",
+        answer ="Coming up to an intersection.",
+        img ="/Assets/quiz/q10.png"
+                },
+                                                new Tasks()
+                {
+                    
+         question ="What must you do when you hear a siren or see red flashing lights from an ambulance or fire engine?",
+         choice_1 ="Speed up to get out of the way.",
+         choice_2 ="Drive up onto the footpath.",
+         choice_3 ="Pull over and allow it to pass.",
+        answer ="Pull over and allow it to pass.",
+        img ="/Assets/quiz/q11.png"
+                },
+                                                       new Tasks()
+                {
+                    
+         question ="What does this sign mean?",
+         choice_1 ="Railway station ahead.",
+         choice_2 ="Railway crossing ahead.",
+         choice_3 ="Railway museum ahead.",
+        answer ="Railway crossing ahead.",
+        img ="/Assets/quiz/q12.png"
+                },
+                                                       new Tasks()
+                {
+                    
+         question ="What does this sign mean?",
+         choice_1 ="Road works ahead.",
+         choice_2 ="Open speed limit applies dependent on conditions,maximum speed of 100 kms.",
+         choice_3 ="Accident.",
+        answer ="Open speed limit applies dependent on conditions,maximum speed of 100 kms.",
+        img ="/Assets/quiz/q13.png"
+                },
+
+                                                       new Tasks()
+                {
+                    
+         question ="What must you do when you see two red lights flashing outside a fire station?",
+         choice_1 ="Slow down and drive on carefully if the way is clear.",
+         choice_2 ="Slow down to 20 km/h",
+         choice_3 ="Stop until the lights stop flashing.",
+        answer ="Stop until the lights stop flashing.",
+        img ="/Assets/quiz/q14.png"
+                },
+
+                                                       new Tasks()
+                {
+                    
+         question ="When may you pass on the left at an intersection,if you can do so safely?",
+         choice_1 ="When the vehicle in front is signalling a left turn.",
+         choice_2 ="When the vehicle in front is signalling a right turn.",
+         choice_3 ="When the vehicle in front is going faster than the speed limit.",
+        answer ="When the vehicle in front is signalling a right turn.",
+        img ="/Assets/quiz/q15.png"
+                },
+
+                                                       new Tasks()
+                {
+                    
+         question ="Who may legally require you to give a blood sample?",
+         choice_1 ="A police officer,an ambulance officier,other crash paarty.",
+         choice_2 ="A medical doctor,other crash party,a police officer.",
+         choice_3 ="A police officer,a medical doctor or an approved person.",
+        answer ="A police officer,a medical doctor or an approved person.",
+        img ="/Assets/quiz/q16.png"
+                },
+
+                                                       new Tasks()
+                {
+                    
+         question ="If you are driving in fog, your vehicle should have its:",
+         choice_1 ="Park lights on.",
+         choice_2 ="Headlights on dip.",
+         choice_3 ="Hazard lights on.",
+        answer ="Headlights on dip.",
+        img ="/Assets/quiz/q17.png"
+                },
+
+                                                       new Tasks()
+                {
+                    
+         question ="If anybody is hurt in a crash, the drivr must tell a police officer as soon as possible but within:",
+         choice_1 ="24 hours.",
+         choice_2 ="36 hours.",
+         choice_3 ="48 hours.",
+        answer ="24 hours.",
+        img ="/Assets/quiz/q18.png"
+                },
+
+
+                                                       new Tasks()
+                {
+                    
+         question ="What should you do if you are driving and become sleepy?",
+         choice_1 ="Drive on the far left side of the road.",
+         choice_2 ="Move off to the left of the road in a safe place and have a rest.",
+         choice_3 ="Speed up so that you can get home quickly.",
+        answer ="Move off to the left of the road in a safe place and have a rest.",
+        img ="/Assets/quiz/q19.png"
+                },
+
+                                                       new Tasks()
+                {
+                    
+         question ="When should you use the hazard lights on your vehicle?",
+         choice_1 ="When you are changing a tyre on the side of the road.",
+         choice_2 ="When you are coming up to an airport.",
+         choice_3 ="When you are doubleparked.",
+        answer ="When you are changing a tyre on the side of the road.",
+        img ="/Assets/quiz/q20.png"
+                },
+                
+                                                       new Tasks()
+                {
+                    
+         question ="You are coming up to a one-lane bridge and you see this sign.What must you do?",
+         choice_1 ="Give way to any oncoming vehicles.",
+         choice_2 ="Drive straight ahead without stopping.",
+         choice_3 ="Drive straight ahead but keep to the far left.",
+        answer ="Give way to any oncoming vehicles.",
+        img ="/Assets/quiz/q21.png"
+                },
